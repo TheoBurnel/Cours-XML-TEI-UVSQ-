@@ -11,13 +11,13 @@ Présentation de XML-TEI
 Encodage d'un article de revue, d'une poésie, d'une pièce de théâtre.
 Présentation des attributs
 ### Séance 3
-Pratique sur des textes de la Renaissance
-### Séance 4
 Contraindre le XML : présentation de la DTD
-### Séance 5
+### Séance 4
 Présentation du TeiHeader
-### Séance 6
+### Séance 5
 Présentation de l'ODD
+### Séance 6
+Évaluation et pratique sur des textes de la Renaissance
 ### Séance 7
 De l'HTR à l'édition XML-TEI
 ### Séance 8
