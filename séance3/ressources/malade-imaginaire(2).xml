@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE piece SYSTEM "theatre.dtd">
+
+<piece>
+    <titre>Le Malade Imaginaire</titre>
+    <auteur>Molière</auteur>
+    
+    <acte numero="1">
+        <titre>Acte I</titre>
+        <scene numero="1">
+            <titre>Scène 1</titre>
+            <replique personnageID="p1">
+                <personnage id="p1">Argan</personnage>
+                <texte>Hé bien, Monsieur Purgon, que me conseillez-vous de faire ?</texte>
+            </replique>
+            <didascalie>(Il se tourne vers son médecin avec anxiété.)</didascalie>
+            <replique personnageID="p2">
+                <personnage id="p2">Monsieur Purgon</personnage>
+                <texte>Je vous conseille de continuer votre régime strictement.</texte>
+            </replique>
+        </scene>
+        <scene numero="2">
+            <titre>Scène 2</titre>
+            <replique personnageID="p3">
+                <personnage id="p3">Toinette</personnage>
+                <texte>Ah, Monsieur Argan, vous ne vous portez que trop bien !</texte>
+            </replique>
+            <didascalie>(Toinette, en aparté, fait signe qu'elle plaisante.)</didascalie>
+        </scene>
+    </acte>
+    
+    <acte numero="2">
+        <titre>Acte II</titre>
+        <scene numero="1">
+            <titre>Scène 1</titre>
+            <replique personnageID="p1">
+                <personnage id="p1">Argan</personnage>
+                <texte>Mon coeur, vous êtes cruelle !</texte>
+            </replique>
+            <didascalie>(Il pose la main sur sa poitrine, feignant un malaise.)</didascalie>
+            <replique personnageID="p4">
+                <personnage id="p4">Angélique</personnage>
+                <texte>Père, je n'ai que de l'amour pour vous.</texte>
+            </replique>
+        </scene>
+    </acte>
+</piece>

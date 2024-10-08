@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<piece>
+    <titre>Le Malade Imaginaire</titre>
+    <auteur>Molière</auteur>
+    
+    <acte>
+        <titre>Acte I</titre>
+        <scene>
+            <titre>Scène 1</titre>
+            <replique>
+                <personnage>Argan</personnage>
+                <texte>Hé bien, Monsieur Purgon, que me conseillez-vous de faire ?</texte>
+            </replique>
+            <didascalie>(Il se tourne vers son médecin avec anxiété.)</didascalie>
+            <replique>
+                <personnage>Monsieur Purgon</personnage>
+                <texte>Je vous conseille de continuer votre régime strictement.</texte>
+            </replique>
+        </scene>
+        <scene>
+            <titre>Scène 2</titre>
+            <replique>
+                <personnage>Toinette</personnage>
+                <texte>Ah, Monsieur Argan, vous ne vous portez que trop bien !</texte>
+            </replique>
+            <didascalie>(Toinette, en aparté, fait signe qu'elle plaisante.)</didascalie>
+        </scene>
+    </acte>
+    
+    <acte>
+        <titre>Acte II</titre>
+        <scene>
+            <titre>Scène 1</titre>
+            <replique>
+                <personnage>Argan</personnage>
+                <texte>Mon coeur, vous êtes cruelle !</texte>
+            </replique>
+            <didascalie>(Il pose la main sur sa poitrine, feignant un malaise.)</didascalie>
+            <replique>
+                <personnage>Angélique</personnage>
+                <texte>Père, je n'ai que de l'amour pour vous.</texte>
+            </replique>
+        </scene>
+    </acte>
+</piece>

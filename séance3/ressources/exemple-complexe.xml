@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "schema.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exemple de texte TEI avec une DTD complexe</title>
+                <author>Théo Burnel</author>
+                <editor>Jean Dupont</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Éditions XML</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="2024-10-08"/>
+                <idno type="isbn">978-1234-5678-90</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Manuscrit original</title>
+                    <author>Anonyme</author>
+                    <pubPlace>Bibliothèque Nationale</pubPlace>
+                    <date when="1850"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="chapter" xml:id="ch1">
+                <head>Chapitre 1: Introduction</head>
+                <p>
+                    Ce texte est un exemple de <term>XML-TEI</term> avec une DTD complexe. Il contient des références croisées 
+                    comme le <ref target="ch2">chapitre suivant</ref>, et des éléments structurés tels que des citations, des
+                    annotations, et des métadonnées avancées.
+                </p>
+                <cit>
+                    <quote xml:lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</quote>
+                    <bibl>
+                        <title>Aeneis</title>
+                        <author>Vergilius</author>
+                        <date when="19BCE"/>
+                    </bibl>
+                </cit>
+            </div>
+
+            <div type="chapter" xml:id="ch2">
+                <head>Chapitre 2: Développement</head>
+                <p>
+                    Ce chapitre contient des annotations linguistiques. 
+                    <app>
+                        <lem>Le texte de base</lem>
+                        <rdg wit="ms1">Une première variante</rdg>
+                        <rdg wit="ms2">Une seconde variante</rdg>
+                    </app>
+                    Vous pouvez aussi y trouver des figures et des tables.
+                </p>
+                <figure xml:id="fig1">
+                    <figDesc>Un exemple de schéma XML.</figDesc>
+                    <graphic url="schema.png"/>
+                </figure>
+                <table>
+                    <row>
+                        <cell>Élément</cell>
+                        <cell>Description</cell>
+                    </row>
+                    <row>
+                        <cell>&lt;div&gt;</cell>
+                        <cell>Division du texte</cell>
+                    </row>
+                    <row>
+                        <cell>&lt;p&gt;</cell>
+                        <cell>Paragraphe</cell>
+                    </row>
+                </table>
+            </div>
+
+            <div type="chapter" xml:id="ch3">
+                <head>Chapitre 3: Conclusion</head>
+                <p>
+                    En conclusion, ce document démontre l'usage de <term>TEI</term> avec des éléments complexes, y compris 
+                    des références internes et externes, des annotations, et des structures hiérarchiques.
+                </p>
+                <list type="gloss">
+                    <item>
+                        <term>TEI</term>
+                        <def>Text Encoding Initiative</def>
+                    </item>
+                    <item>
+                        <term>XML</term>
+                        <def>Extensible Markup Language</def>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
