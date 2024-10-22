@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "schema.dtd">
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -56,8 +56,7 @@
                     Vous pouvez aussi y trouver des figures et des tables.
                 </p>
                 <figure xml:id="fig1">
-                    <figDesc>Un exemple de schéma XML.</figDesc>
-                    <graphic url="schema.png"/>
+                    Un exemple de schéma XML.
                 </figure>
                 <table>
                     <row>
@@ -83,12 +82,10 @@
                 </p>
                 <list type="gloss">
                     <item>
-                        <term>TEI</term>
-                        <def>Text Encoding Initiative</def>
+                        Text Encoding Initiative
                     </item>
                     <item>
-                        <term>XML</term>
-                        <def>Extensible Markup Language</def>
+                        Extensible Markup Language
                     </item>
                 </list>
             </div>
