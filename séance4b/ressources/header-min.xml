@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titre de l'œuvre</title>
+                <author>Nom de l'auteur</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Nom de l'éditeur</publisher>
+                <date when="2024-08-29">Date de publication</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Titre de la source originale</title>
+                        <author>Auteur de la source</author>
+                        <imprint>
+                            <pubPlace>Lieu de publication</pubPlace>
+                            <publisher>Éditeur original</publisher>
+                            <date when="2000">Date de publication originale</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Description du projet d'encodage.</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Thème du texte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2024-08-29" who="#encodeur">
+                Création du document.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <p>Contenu principal du texte.</p>
+        </body>
+    </text>
+</TEI>
