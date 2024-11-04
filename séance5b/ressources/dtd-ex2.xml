@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conference>
+    <titre>Symposium sur les Technologies Émergentes</titre>
+    <intervenant id="i1">Dr. Alice Moreau <bio>(Directrice de recherche à &org;)</bio></intervenant>
+    <intervenant id="i2">Prof. Jean Dupuis</intervenant>
+    <date/>
+    <contenu>
+        <session id="s1" theme="Intelligence Artificielle">
+            <presentation duree="30min" langue="fr">
+                <resume>Présentation par le Prof. Jean Dupuis sur les impacts de l'IA.</resume>
+                <resume>&pub; a publié un article spécial sur cette recherche en 2023.</resume>
+            </presentation>
+            <note>Session modérée par Dr. Alice Moreau.</note>
+        </session>
+        <session id="s2" theme="Big Data">
+            <presentation duree="45min" langue="fr">
+                <resume>&org; explore les applications des mégadonnées dans les sciences sociales.</resume>
+            </presentation>
+        </session>
+    </contenu>
+</conference>
