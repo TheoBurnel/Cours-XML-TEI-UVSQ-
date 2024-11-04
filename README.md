@@ -15,9 +15,9 @@ Contraindre le XML : présentation de la DTD
 ### Séance 4
 Présentation du TeiHeader
 ### Séance 5
-Présentation de l'ODD
+Suite du TeiHeader et dernier retour sur la DTD
 ### Séance 6
-Évaluation et pratique sur des textes de la Renaissance
+Évaluation et présentation de l'ODD
 ### Séance 7
 De l'HTR à l'édition XML-TEI
 ### Séance 8
