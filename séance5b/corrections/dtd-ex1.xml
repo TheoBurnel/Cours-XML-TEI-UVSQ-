@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE article [
+    <!ELEMENT article (titre, auteur+, date, contenu)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT auteur (#PCDATA | note)*>
+    <!ELEMENT note (#PCDATA)>
+    <!ELEMENT date EMPTY>
+    <!ELEMENT contenu (section+)>
+    <!ELEMENT section (paragraphe+, citation?)>
+    <!ELEMENT paragraphe (#PCDATA)>
+    <!ELEMENT citation (#PCDATA)>
+
+    <!ATTLIST auteur id ID #REQUIRED>
+    <!ATTLIST section niveau CDATA #REQUIRED lang CDATA "fr">
+
+    <!ENTITY revue "La Revue Académique des Sciences">
+    <!ENTITY auteur_citation "Jean Four">
+
+]>
+
+<article>
+    <titre>Introduction avancée aux DTD et XML</titre>
+    <auteur id="a1">Paul Martin</auteur>
+    <auteur id="a2">Claire Dupont <note>(fille)</note></auteur>
+    <date/>
+    <contenu>
+        <section niveau="1" lang="fr">
+            <paragraphe>&revue; a publié un article détaillant l'importance des DTD dans les structures XML.</paragraphe>
+            <paragraphe>Dans cet article, &revue; souligne également les meilleures pratiques pour déclarer des éléments et des attributs.</paragraphe>
+            <citation>&auteur_citation; : "Les structures DTD sont essentielles pour valider et organiser les documents XML de manière standardisée."</citation>
+        </section>
+        <section niveau="2" lang="fr">
+            <paragraphe>Les entités permettent d'éviter la répétition de contenus et facilitent la maintenance des documents XML.</paragraphe>
+        </section>
+    </contenu>
+</article>

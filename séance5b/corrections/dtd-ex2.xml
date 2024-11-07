@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE conference [
+    <!ELEMENT conference (titre, intervenant+, date, contenu)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT intervenant (#PCDATA | bio)*>
+    <!ELEMENT bio (#PCDATA)>
+    <!ELEMENT date EMPTY>
+    <!ELEMENT contenu (session+)>
+    <!ELEMENT session (presentation, note?)>
+    <!ELEMENT presentation (resume+)>
+    <!ELEMENT resume (#PCDATA)>
+    <!ELEMENT note (#PCDATA)>
+
+    <!ATTLIST intervenant id ID #REQUIRED>
+    <!ATTLIST session id CDATA #REQUIRED theme CDATA #REQUIRED>
+    <!ATTLIST presentation duree CDATA #REQUIRED langue CDATA "fr">
+
+    <!ENTITY org "Institut de Recherche Avancée">
+    <!ENTITY pub "Journal des Sciences Appliquées">
+]>
+
+<conference>
+    <titre>Symposium sur les Technologies Émergentes</titre>
+    <intervenant id="i1">Dr. Alice Moreau <bio>(Directrice de recherche à &org;)</bio></intervenant>
+    <intervenant id="i2">Prof. Jean Dupuis</intervenant>
+    <date/>
+    <contenu>
+        <session id="s1" theme="Intelligence Artificielle">
+            <presentation duree="30min" langue="fr">
+                <resume>Présentation par le Prof. Jean Dupuis sur les impacts de l'IA.</resume>
+                <resume>&pub; a publié un article spécial sur cette recherche en 2023.</resume>
+            </presentation>
+            <note>Session modérée par Dr. Alice Moreau.</note>
+        </session>
+        <session id="s2" theme="Big Data">
+            <presentation duree="45min" langue="fr">
+                <resume>&org; explore les applications des mégadonnées dans les sciences sociales.</resume>
+            </presentation>
+        </session>
+    </contenu>
+</conference>
