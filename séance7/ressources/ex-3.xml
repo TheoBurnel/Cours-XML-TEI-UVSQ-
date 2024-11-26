@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:custom="http://www.example.org/ns/custom">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ode au vent d'hiver</title>
+            <author>Paul Verlaine</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encodage réalisé par un étudiant en XML TEI</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texte inspiré d'un poème fictif pour des exercices pédagogiques</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg type="ode">
+            <head>Ode au vent d'hiver</head>
+            <lg type="strophe" n="1">
+                  <l n="1" rime="ABBA">Ô vent cruel, emportant les feuillages,</l>
+                  <l n="2" rime="ABBA">Tu hurles, messager d'une triste saison,</l>
+                  <l n="3" rime="ABBA">Les cieux s'assombrissent, et sans raison,</l>
+                  <l n="4" rime="ABBA">La terre frissonne sous tes ravages.</l>
+            </lg>
+            <lg type="strophe" n="2">
+                  <l n="5" rime="CCDD">Mais ton souffle réveille aussi la mémoire,</l>
+                  <l n="6" rime="CCDD">D’un été lointain, doux et lumineux.</l>
+                  <l n="7" rime="CCDD">Chaque arbre tremble, captif de tes jeux,</l>
+                  <l n="8" rime="CCDD">Et chante une ballade de gloire et d’espoir.</l>
+            </lg>
+            <lg type="envoi">
+               <lg type="couplet" n="1">
+                     <l n="9" rime="EE">Ainsi passe le temps, entre peine et joie,</l>
+                     <l n="10" rime="EE">Et ton cri, ô vent, ne fait que témoigner.</l>
+               </lg>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>

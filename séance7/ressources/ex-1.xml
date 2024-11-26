@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiHeader [
+    <!ELEMENT teiHeader (fileDesc, encodingDesc)>
+    <!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+    <!ELEMENT titleStmt (title, author)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT publicationStmt (publisher, date)>
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT sourceDesc (bibl+)>
+    <!ELEMENT bibl (#PCDATA)>
+    <!ELEMENT encodingDesc (editorialDecl)>
+    <!ELEMENT editorialDecl (p)>
+    <!ELEMENT p (#PCDATA | em)*>
+    <!ELEMENT em (#PCDATA)>
+
+    <!ATTLIST date type (publication | creation | revision) #REQUIRED>
+    <!ATTLIST bibl type (book | article) #IMPLIED>
+
+    <!ENTITY pubName "Université de Paris">
+    <!ENTITY currentYear "2024-11-25">
+]>

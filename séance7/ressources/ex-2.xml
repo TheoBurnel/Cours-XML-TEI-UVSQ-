@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conference>
+    <titre>Conférence sur les Avancées en Technologie</titre>
+    <intervenant id="i1">Dr. Clara Martin <bio>(Chercheuse senior au &org;)</bio></intervenant>
+    <intervenant id="i2">Prof. Éric Lambert</intervenant>
+    <intervenant id="i3">Mme. Sophie Durand <bio>(Coordinatrice à &pub;)</bio></intervenant>
+    <date/>
+    <contenu>
+        <session id="s1" theme="Robots Humanoïdes">
+            <presentation duree="40min" langue="fr">
+                <resume>Discussion sur les robots humanoïdes par Dr. Clara Martin.</resume>
+                <resume>Des articles connexes ont été publiés dans la &pub; en 2022.</resume>
+            </presentation>
+            <note>Session introduite par Prof. Éric Lambert.</note>
+        </session>
+        <session id="s2" theme="Technologies Vertes">
+            <presentation duree="30min" langue="en">
+                <resume>Étude des innovations technologiques dans le secteur des énergies renouvelables.</resume>
+            </presentation>
+        </session>
+        <session id="s3" theme="Blockchain et Sécurité">
+            <presentation duree="50min">
+                <resume>Présentation de Mme. Sophie Durand sur les applications de la blockchain.</resume>
+            </presentation>
+        </session>
+    </contenu>
+</conference>

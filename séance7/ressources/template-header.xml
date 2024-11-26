@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+
+        <!-- Description bibliographique du fichier numérique ainsi que de sa source (physique ou non) -->
+        <fileDesc>
+
+            <!-- Titre et responsabilités liées au document encodé -->
+            <titleStmt>
+                <title>Nom du projet ou titre du texte encodé</title>
+                <author>
+                    <persName>Nom de l'auteur du texte encodé</persName>
+                </author>
+                <!-- Pas de mentions de responsabilité car détaillées par la suite dans editionStmt -->
+            </titleStmt>
+
+            <!-- Informations sur l'édition du document encodé -->
+            <editionStmt>
+                <edition>Première édition encodée, ou autre édition</edition>
+                <respStmt>
+                    <resp>Responsable de cette édition</resp>
+                    <persName>Nom du responsable</persName>
+                </respStmt>
+            </editionStmt>
+
+            <!-- Informations sur la publication/distribution du document encodé -->
+            <publicationStmt>
+                <publisher>Nom de l'éditeur du fichier numérique</publisher>
+                <pubPlace>Lieu de publication</pubPlace>
+                <date when-iso="2024-09">Septembre 2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">
+                        Licence Creative Commons Attribution-partage dans les mêmes conditions
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <!-- Informations concernant la source dont est issue l'encodage -->
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Titre de l'ouvrage source</title>
+                        <author>Auteur de l'ouvrage source</author>
+                        <imprint>
+                            <publisher>Nom de l'éditeur</publisher>
+                            <pubPlace>Lieu de publication</pubPlace>
+                            <date when="2004">Date de publication</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <!-- Complétez des informations concernant l'encodage du texte -->
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>
+            <p></p>
+        </encodingDesc>
+
+        <!-- Ne pas remplir pour cet exemple -->
+        <profileDesc/>
+
+        <!-- Historique des modifications -->
+        <revisionDesc>
+            <change when="2024-08-29" who="#editor">
+               Note sur la création.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>Corps du texte</p>
+        </body>
+    </text>
+</TEI>
