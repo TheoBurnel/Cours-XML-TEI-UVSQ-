@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Phèdre, Acte I, scène 1</title>
+        <author>Jean Racine</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Évaluation du cours XML-TEI</edition>
+        <respSmt>
+            <resp>Responsable de l'encodage</resp>
+            <persName>Théo Burnel</persName>
+        </respSmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Projet académique</publisher>
+        <pubPlace>Paris</pubPlace>
+        <date when="2024-11-25"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Phèdre</title>
+          <author>Jean Racine</author>
+          <date when="1677"/>
+          <publisher>Paris</publisher>
+          <pubPlace>Chez Jean Ribou</pubPlace>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+        <projectDesc>
+            <p>Encodage réalisé dans le cadre de l'évaluation</p>
+        </projectDesc>
+    </encodingDesc>
+
+    <profileDesc>
+        <langUsage>
+            <language>Français classique</language>
+          </langUsage>
+          <textClass>
+            <keywords>
+                <term>Théâtre</term>
+                <term>Littérature</term>
+                <term>Tragédie</term>
+            </keywords>
+          </textClass>
+          <setting>
+            <place>
+              <placeName>Trézène</placeName>
+              <desc>
+                Ville de la Grèce antique, cadre de l’action dramatique de la pièce.
+              </desc>
+            </place>
+          </setting>
+          <particDesc>
+            <listPerson>
+              <person xml:id="Théramène">
+                <persName>Théramène</persName>
+                <role>gouverneur d'Hippolyte</role>
+              </person>
+              <person xml:id="Thésée">
+                <persName>Thésée</persName>
+                <role>fils d'Égée, roi d'Athènes</role>
+              </person>
+            </listPerson>
+          </particDesc>
+    </profileDesc>
+
+    <revisionDesc>
+        <change>Création du fichier par Théo Burnel</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <div type="act" n="1">
+        <head>Acte I</head>
+        <div type="scene" n="1">
+          <head>Scène 1</head>
+          <sp who="#Théramène">
+            <speaker>Théramène</speaker>
+            <p>Quoi ! Vous pourriez, Seigneur, voir sans inquiétude</p>
+            <p>La veuve de <persName id="Thésée">Thésée</persName>, et le sort d’un époux,</p>
+            <p>Qui, vivant, animait ce bordel ?</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
