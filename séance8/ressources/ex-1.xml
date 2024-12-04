@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiHeader [
+    <!ELEMENT teiHeader (fileDesc, encodingDesc, profileDesc, revisionDesc)>
+    <!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+    <!ELEMENT titleStmt (title, author+, respStmt)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT respStmt (resp, name)>
+    <!ELEMENT resp (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT publicationStmt (publisher, date, availability, idno)>
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT availability (#PCDATA)>
+    <!ELEMENT idno (#PCDATA)>
+    <!ELEMENT sourceDesc (bibl+, msDesc)>
+    <!ELEMENT bibl (#PCDATA)> 
+    <!ELEMENT msDesc (msIdentifier, physDesc)>
+    <!ELEMENT msIdentifier (settlement, repository, idno)>
+    <!ELEMENT settlement (#PCDATA)>
+    <!ELEMENT repository (#PCDATA)>
+    <!ELEMENT physDesc (supportDesc, handDesc)>
+    <!ELEMENT supportDesc (#PCDATA)>
+    <!ELEMENT handDesc (#PCDATA)>   
+    <!ELEMENT encodingDesc (editorialDecl, projectDesc)>
+    <!ELEMENT editorialDecl (p+)>
+    <!ELEMENT p (#PCDATA | em)*>
+    <!ELEMENT em (#PCDATA)>
+    <!ELEMENT projectDesc (#PCDATA)>
+    <!ELEMENT profileDesc (langUsage, textDesc)>
+    <!ELEMENT langUsage (language+)>
+    <!ELEMENT language (#PCDATA)>
+    <!ELEMENT textDesc (#PCDATA)>
+    <!ELEMENT revisionDesc (change+)>
+    <!ELEMENT change (#PCDATA)>
+
+    <!ATTLIST bibl type (book | manuscript) #REQUIRED>
+    <!ATTLIST language ident CDATA #REQUIRED>
+
+    <!ENTITY pubName "Institut National des Études Avancées">
+    <!ENTITY currentYear "2024-12-03">
+]>
+

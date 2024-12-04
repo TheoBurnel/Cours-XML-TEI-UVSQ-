@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conference>
+    <titre>Sommet International sur l'Innovation</titre>
+    <intervenant id="i1" role="Président">Dr. Clara Martin 
+        <bio>Chercheuse senior au &org;.</bio>
+        <contact>
+            <email>clara.martin@ier.org</email>
+            <telephone>+33 1 234 567 890</telephone>
+        </contact>
+    </intervenant>
+    <intervenant id="i2" role="Modérateur">Prof. Éric Lambert</intervenant>
+    <intervenant id="i3" role="Intervenante principale">Mme. Sophie Durand 
+        <bio>Coordinatrice éditoriale à &pub;.</bio>
+        <contact>
+            <email>sophie.durand@pub.com</email>
+        </contact>
+    </intervenant>
+    <date/>
+    <lieu>
+        <ville>Paris</ville>
+        <salle>Auditorium 3</salle>
+    </lieu>
+    <contenu>
+        <session id="s1" theme="Robots Humanoïdes">
+            <presentation duree="40min" langue="fr">
+                <resume>Présentation par Dr. Clara Martin sur les dernières avancées en robotique humanoïde.</resume>
+                <support>robots-humanoides.pdf</support>
+            </presentation>
+            <note>Session introduite par Prof. Éric Lambert.</note>
+        </session>
+        <session id="s2" theme="Technologies Vertes">
+            <presentation duree="30min" langue="en">
+                <resume>Analyse des innovations dans les énergies renouvelables, présentée par Mme. Sophie Durand.</resume>
+            </presentation>
+            <tableRonde>
+                <participant>Dr. Clara Martin</participant>
+                <participant>Prof. Éric Lambert</participant>
+                <theme>Défis et opportunités des technologies vertes.</theme>
+            </tableRonde>
+        </session>
+        <session id="s3" theme="Blockchain et Sécurité">
+            <presentation duree="50min">
+                <resume>Exploration des usages sécurisés de la blockchain par Mme. Sophie Durand.</resume>
+            </presentation>
+        </session>
+    </contenu>
+    <annexes>
+        <document type="programme">programme-sommet-2024.pdf</document>
+        <document type="article">article-blockchain.pdf</document>
+        <document type="support">presentation-tech-vertes.pptx</document>
+    </annexes>
+</conference>
